@@ -33,7 +33,6 @@
 		489D6C2D2CE0A41D001699BD /* Exceptions for "makeGitIgnore" folder in "makeGitIgnoreTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				.gitignore,
 				View.swift,
 			);
 			target = 48F944222CE0A327006B37FE /* makeGitIgnoreTests */;
@@ -41,7 +40,6 @@
 		48F944352CE0A327006B37FE /* Exceptions for "makeGitIgnore" folder in "makeGitIgnore" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				.gitignore,
 				Info.plist,
 				View.swift,
 			);
