@@ -30,10 +30,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		489D6C2D2CE0A41D001699BD /* Exceptions for "makeGitIgnore" folder in "makeGitIgnoreTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+				View.swift,
+			);
+			target = 48F944222CE0A327006B37FE /* makeGitIgnoreTests */;
+		};
 		48F944352CE0A327006B37FE /* Exceptions for "makeGitIgnore" folder in "makeGitIgnore" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				.gitignore,
 				Info.plist,
+				View.swift,
 			);
 			target = 48F9440C2CE0A325006B37FE /* makeGitIgnore */;
 		};
@@ -44,6 +54,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				48F944352CE0A327006B37FE /* Exceptions for "makeGitIgnore" folder in "makeGitIgnore" target */,
+				489D6C2D2CE0A41D001699BD /* Exceptions for "makeGitIgnore" folder in "makeGitIgnoreTests" target */,
 			);
 			path = makeGitIgnore;
 			sourceTree = "<group>";
